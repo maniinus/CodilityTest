@@ -6,7 +6,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "GET",
-            url: "resources.json",
+            url: "https://my-json-server.typicode.com/maniinus/CodilityTest/posts",
             success: function(result)
             {
                 console.log(result);
