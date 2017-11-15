@@ -1,0 +1,158 @@
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* main css starts here. above generated css is from html template in webstrom */
+
+.nav-section {
+    width:100%;
+    background:#4F4D53;
+    height: 48px;
+}
+.gtd-header{
+    background: url('../img/gtd_logo.png') no-repeat;
+    background-position: 17%;
+    height:48px;
+}
+
+.gtd-welcome-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: #4F4D53;
+    text-align: center;
+    margin: 0;
+    top: 30%;
+    position: absolute;
+    left: 17%;
+}
+
+.gtd-header-box {
+    background: url('../img/img-hero.jpg') no-repeat;
+    display: block;
+    background-size: cover;
+    width: 100%;
+    height:500px;
+}
+
+.gtd-header-2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    color: #E8BE02;
+}
+
+.gtd-article {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F4D53;
+}
+
+.gtd-article-section {
+    width:960px;
+    margin: 0 auto;
+}
+
+.gtd-yellow-bar {
+    height:12px;
+    background-color:#E8BE02;
+}
+
+.gtd-footer-section {
+    height:320px;
+    background-color:#4F4D53;
+}
+
+body {
+    margin:0 auto;
+    padding:0;
+}
+
+h1,h3 {
+    margin: 0;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+h3{
+    color: #E8BE02;
+}
+
+.footer-blocks {
+    float:left;
+    margin-right: 17%;
+    margin-top:40px;
+}
+
+footer {
+    width:960px;
+    margin: 0 auto;
+}
+
+.gtd-article h3{
+    font-size: 20px;
+}
+
+.gtd-article p{
+    font-size: 18px;
+}
