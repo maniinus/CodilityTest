@@ -1,4 +1,4 @@
-[
+{
     "posts": [
         {
             "title": "heading 1",
@@ -7,9 +7,15 @@
         {
             "title": "heading 2",
             "data": "Lorem ipsum dolor sit amet, magna ullum in vis, eos quidam facete epicurei cu, no autem nobis expetendis qui. Postea mollis timeam in nec, duo no utinam debitis ancillae. His munere docendi scribentur ne, appetere volutpat efficiendi ne vis. Has no nibh atomorum rationibus, ne sit perpetua intellegebat reprehendunt. Usu ne veri facilis, in tacimates ocurreret sed."
+        },
+         {
+            "title": "heading 3",
+            "data": "Lorem ipsum dolor sit amet, magna ullum in vis, eos quidam facete epicurei cu, no autem nobis expetendis qui. Postea mollis timeam in nec, duo no utinam debitis ancillae. His munere docendi scribentur ne, appetere volutpat efficiendi ne vis. Has no nibh atomorum rationibus, ne sit perpetua intellegebat reprehendunt. Usu ne veri facilis, in tacimates ocurreret sed."
         }
     ],
     "profile": {
         "name": "typicode"
       }
-]
+}
+
+
